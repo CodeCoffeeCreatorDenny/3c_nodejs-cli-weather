@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-cli-weather",
+  "version": "1.0.0",
+  "description": "nodejs cli app to get weather data",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "javascript",
+    "api"
+  ],
+  "author": "Denny Pearce",
+  "license": "ISC",
+  "homepage": "https://dennycodecoffeecreator.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCoffeeCreatorDenny"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeCoffeeCreatorDenny",
+    "email": "code.coffee.creator@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
